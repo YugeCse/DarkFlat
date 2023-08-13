@@ -1,13 +1,127 @@
 {
   "name": "FlatDarker",
-  "author": "YourCompany",
+  "author": "Hwang",
   "dark": true,
-
   "colors": {
-    "primaryRed": "#821010"
+    "primaryColor": "#1E1F22",
+    "primaryDarkColor": "#243037",
+    "secondaryColor": "#333333",
+    "accentColor": "#ADD5E7",
+    "hoverColor": "#1E1F22",
+    "runWidgetRunningBgColor": "#243037"
   },
-
   "ui": {
-    "Button.background": "primaryRed"
+    "*": {
+      "background": "primaryColor",
+      "borderColor": "primaryColor",
+      "focusColor": "accentColor",
+      "activeBackground": "primaryColor",
+      "inactiveBackground": "primaryColor",
+      "selectionBackground": "primaryColor",
+      "lineSeparatorColor": "primaryColor",
+      "hoverBackground": "hoverColor",
+      "selectionForeground": "accentColor"
+    },
+    "windowBorder": "secondaryColor",
+    "Borders": {
+      "color": "primaryColor",
+      "ContrastBorderColor": "primaryColor"
+    },
+    "Notification": {
+      "borderColor": "secondaryColor"
+    },
+    "InformationHint": {
+      "borderColor": "secondaryColor"
+    },
+    "Plugins": {
+      "borderColor": "secondaryColor"
+    },
+    "Component": {
+      "borderColor": "secondaryColor"
+    },
+    "ToolTip.borderColor": "secondaryColor",
+    "GotItTooltip.borderColor": "secondaryColor",
+    "HelpTooltip.borderColor": "secondaryColor",
+    "InplaceRefactoringPopup.borderColor": "secondaryColor",
+    "RunWidget": {
+      "background": "secondaryColor",
+      "pressedBackground": "primaryDarkColor",
+      "hoverBackground": "secondaryColor",
+      "runningBackground": "runWidgetRunningBgColor"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "secondaryColor",
+        "nonEditableBackground": "secondaryColor"
+      },
+      "buttonBackground": "secondaryColor",
+      "disabledBackground": "secondaryColor",
+      "selectionBackground": "secondaryColor",
+      "nonEditableBackground": "secondaryColor"
+    },
+    "TextField": {
+      "background": "secondaryColor",
+      "selectionBackground": "secondaryColor",
+      "inactiveBackground": "secondaryColor"
+    },
+    "FormattedTextField": {
+      "background": "secondaryColor"
+    },
+    "TextArea": {
+      "background": "primaryColor",
+      "inactiveBackground": "secondaryColor",
+      "selectionBackground": "secondaryColor"
+    },
+    "TextPane.inactiveBackground": "primaryColor",
+    "DefaultTabs": {
+      "background": "primaryColor",
+      "underlinedTabBackground": "primaryColor"
+    },
+    "Popup": {
+      "paintBorder": true,
+      "borderColor": "secondaryColor",
+      "innerBorderColor": "secondaryColor",
+      "inactiveBorderColor": "secondaryColor"
+    },
+    "DebuggerPopup.borderColor": "secondaryColor",
+    "ComboPopup.border": "1,1,1,secondaryColor",
+    "EditorTabs": {
+      "background": "primaryColor",
+      "selectedBackground": "primaryColor",
+      "underlinedTabBackground": "primaryColor",
+      "inactiveColoredFileBackground": "primaryColor"
+    },
+    "Menu": {
+      "borderColor": "secondaryColor",
+      "selectionBackground": "secondaryColor",
+      "separatorColor": "secondaryColor"
+    },
+    "Toolbar": {
+      "Floating": {
+        "borderColor": "secondaryColor"
+      }
+    },
+    "ComboPopup": {
+      "border": "secondaryColor"
+    },
+    "Table": {
+      "background": "primaryColor",
+      "selectionBackground": "primaryDarkColor",
+      "selectionInactiveBackground": "primaryDarkColor"
+    },
+    "UiDesigner": {
+      "Panel.background": "primaryColor",
+      "Preview.background": "primaryColor"
+    },
+    "ActionButton": {
+      "hoverBorderColor": "secondaryColor"
+    },
+    "WelcomeScreen": {
+      "headerBackground": "primaryColor",
+      "captionBackground": "primaryColor",
+      "footerBackground": "primaryColor",
+      "Projects.selectionBackground": "primaryColor",
+      "Projects.selectionInactiveBackground": "primaryColor"
+    }
   }
 }

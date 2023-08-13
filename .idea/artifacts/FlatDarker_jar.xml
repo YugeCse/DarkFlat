@@ -1,6 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="FlatDarker:jar">
+  <artifact name="FlatDarker:jar">
     <output-path>$PROJECT_DIR$/out</output-path>
-    <root id="archive" name="FlatDarker.jar" />
+    <root id="root">
+      <element id="archive" name="FlatDarker.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+          <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/pluginIcon.svg" />
+        </element>
+        <element id="directory" name="theme">
+          <element id="file-copy" path="$PROJECT_DIR$/resources/theme/FlatDarker.theme.json" />
+        </element>
+      </element>
+    </root>
   </artifact>
 </component>
