@@ -6,12 +6,13 @@
     "primaryColor": "#1E1F22",
     "primaryDarkColor": "#243037",
     "secondaryColor": "#333333",
-    "accentColor": "#ADD5E7",
+    "accentColor": "#0985cc",
     "hoverColor": "#1E1F22",
     "runWidgetRunningBgColor": "#243037"
   },
   "ui": {
     "*": {
+      "arc": "8,8,8,8",
       "background": "primaryColor",
       "borderColor": "primaryColor",
       "focusColor": "accentColor",
@@ -23,6 +24,17 @@
       "selectionForeground": "accentColor"
     },
     "windowBorder": "secondaryColor",
+    "TitlePane": {
+      "background": "primaryColor"
+    },
+    "MainWindow": {
+      "Tab": {
+        "selectedInactiveBackground": "accentColor"
+      }
+    },
+    "ParameterInfo": {
+      "currentOverloadBackground": "primaryColor"
+    },
     "Borders": {
       "color": "primaryColor",
       "ContrastBorderColor": "primaryColor"
@@ -39,10 +51,18 @@
     "Component": {
       "borderColor": "secondaryColor"
     },
-    "ToolTip.borderColor": "secondaryColor",
-    "GotItTooltip.borderColor": "secondaryColor",
-    "HelpTooltip.borderColor": "secondaryColor",
-    "InplaceRefactoringPopup.borderColor": "secondaryColor",
+    "ToolTip": {
+      "borderColor": "secondaryColor"
+    },
+    "GotItTooltip": {
+      "borderColor": "secondaryColor"
+    },
+    "HelpTooltip": {
+      "borderColor": "secondaryColor"
+    },
+    "InplaceRefactoringPopup": {
+      "borderColor": "secondaryColor"
+    },
     "RunWidget": {
       "background": "secondaryColor",
       "pressedBackground": "primaryDarkColor",
@@ -72,7 +92,9 @@
       "inactiveBackground": "secondaryColor",
       "selectionBackground": "secondaryColor"
     },
-    "TextPane.inactiveBackground": "primaryColor",
+    "TextPane": {
+      "inactiveBackground": "primaryColor"
+    },
     "DefaultTabs": {
       "background": "primaryColor",
       "underlinedTabBackground": "primaryColor"
@@ -83,7 +105,9 @@
       "innerBorderColor": "secondaryColor",
       "inactiveBorderColor": "secondaryColor"
     },
-    "DebuggerPopup.borderColor": "secondaryColor",
+    "DebuggerPopup": {
+      "borderColor": "secondaryColor"
+    },
     "ComboPopup.border": "1,1,1,secondaryColor",
     "EditorTabs": {
       "background": "primaryColor",
@@ -120,8 +144,8 @@
       "headerBackground": "primaryColor",
       "captionBackground": "primaryColor",
       "footerBackground": "primaryColor",
-      "Projects.selectionBackground": "primaryColor",
-      "Projects.selectionInactiveBackground": "primaryColor"
+      "Projects.selectionBackground": "accentColor",
+      "Projects.selectionInactiveBackground": "secondaryColor"
     }
   }
 }
