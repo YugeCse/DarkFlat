@@ -3,26 +3,32 @@
   "author": "Hwang",
   "dark": true,
   "colors": {
+    "transparent": "#00000000",
     "primaryColor": "#1E1F22",
-    "primaryDarkColor": "#243037",
-    "secondaryColor": "#333333",
+    "primaryDarkColor": "#2c2c2c",
+    "secondaryColor": "#303030",
+    "secondaryColor2": "#3A3A3A",
     "accentColor": "#0985cc",
     "hoverColor": "#1E1F22",
-    "runWidgetRunningBgColor": "#243037"
+    "runWidgetRunningBgColor": "#23343f"
   },
   "ui": {
     "*": {
-      "arc": "8,8,8,8",
+      "arc": "4",
+      "focusWidth": "1",
       "background": "primaryColor",
       "borderColor": "primaryColor",
       "focusColor": "accentColor",
       "activeBackground": "primaryColor",
       "inactiveBackground": "primaryColor",
       "selectionBackground": "primaryColor",
-      "lineSeparatorColor": "primaryColor",
       "hoverBackground": "hoverColor",
-      "selectionForeground": "accentColor"
+      "selectionForeground": "accentColor",
+      "separatorColor": "primaryColor",
+      "lineSeparatorColor": "primaryColor"
     },
+    "Tree.rowHeight": "19",
+    "SettingsTree.rowHeight": "20",
     "windowBorder": "secondaryColor",
     "TitlePane": {
       "background": "primaryColor"
@@ -36,8 +42,8 @@
       "currentOverloadBackground": "primaryColor"
     },
     "Borders": {
-      "color": "primaryColor",
-      "ContrastBorderColor": "primaryColor"
+      "color": "transparent",
+      "ContrastBorderColor": "secondaryColor"
     },
     "Notification": {
       "borderColor": "secondaryColor"
@@ -49,7 +55,9 @@
       "borderColor": "secondaryColor"
     },
     "Component": {
-      "borderColor": "secondaryColor"
+      "arc": "4",
+      "borderColor": "secondaryColor",
+      "disabledBorderColor": "secondaryColor2"
     },
     "ToolTip": {
       "borderColor": "secondaryColor"
@@ -71,26 +79,31 @@
     },
     "ComboBox": {
       "ArrowButton": {
-        "background": "secondaryColor",
-        "nonEditableBackground": "secondaryColor"
+        "background": "primaryColor",
+        "nonEditableBackground": "primaryColor"
       },
-      "buttonBackground": "secondaryColor",
-      "disabledBackground": "secondaryColor",
-      "selectionBackground": "secondaryColor",
-      "nonEditableBackground": "secondaryColor"
+      "buttonBackground": "primaryColor",
+      "disabledBackground": "primaryColor",
+      "selectionBackground": "primaryColor",
+      "nonEditableBackground": "primaryColor"
+    },
+    "SearchEverywhere": {
+      "SearchField": {
+        "background": "primaryColor"
+      }
     },
     "TextField": {
-      "background": "secondaryColor",
-      "selectionBackground": "secondaryColor",
-      "inactiveBackground": "secondaryColor"
+      "background": "primaryDarkColor",
+      "selectionBackground": "primaryColor",
+      "inactiveBackground": "primaryColor"
     },
     "FormattedTextField": {
-      "background": "secondaryColor"
+      "background": "primaryColor"
     },
     "TextArea": {
       "background": "primaryColor",
-      "inactiveBackground": "secondaryColor",
-      "selectionBackground": "secondaryColor"
+      "inactiveBackground": "primaryColor",
+      "selectionBackground": "primaryColor"
     },
     "TextPane": {
       "inactiveBackground": "primaryColor"
@@ -100,6 +113,9 @@
       "underlinedTabBackground": "primaryColor"
     },
     "Popup": {
+      "Toolbar": {
+        "borderColor": "secondaryColor"
+      },
       "paintBorder": true,
       "borderColor": "secondaryColor",
       "innerBorderColor": "secondaryColor",
@@ -108,7 +124,12 @@
     "DebuggerPopup": {
       "borderColor": "secondaryColor"
     },
-    "ComboPopup.border": "1,1,1,secondaryColor",
+    "EditorPane": {
+      "splitBorder": "1,primaryColor"
+    },
+    "ComboPopup": {
+      "border": "1,secondaryColor"
+    },
     "EditorTabs": {
       "background": "primaryColor",
       "selectedBackground": "primaryColor",
@@ -117,16 +138,13 @@
     },
     "Menu": {
       "borderColor": "secondaryColor",
-      "selectionBackground": "secondaryColor",
-      "separatorColor": "secondaryColor"
+      "separatorColor": "secondaryColor",
+      "selectionBackground": "secondaryColor"
     },
     "Toolbar": {
       "Floating": {
         "borderColor": "secondaryColor"
       }
-    },
-    "ComboPopup": {
-      "border": "secondaryColor"
     },
     "Table": {
       "background": "primaryColor",
