@@ -1,10 +1,10 @@
 {
-  "name": "Flat",
-  "author": "Hwang",
+  "name": "Dark Flat",
+  "author": "yugecosecant@foxmail.com",
   "dark": true,
   "colors": {
     "transparent": "#00000000",
-    "primaryColor": "#3D3F41",
+    "primaryColor": "#1E1F22",
     "primaryLightColor": "#676666",
     "primaryDarkColor": "#2c2c2c",
     "secondaryColor": "#303030",
