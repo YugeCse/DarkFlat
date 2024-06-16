@@ -1,14 +1,16 @@
 {
-  "name": "FlatDarker",
+  "name": "Flat",
   "author": "Hwang",
   "dark": true,
   "colors": {
     "transparent": "#00000000",
-    "primaryColor": "#1E1F22",
+    "primaryColor": "#3D3F41",
+    "primaryLightColor": "#676666",
     "primaryDarkColor": "#2c2c2c",
     "secondaryColor": "#303030",
     "secondaryColor2": "#3A3A3A",
     "accentColor": "#0985cc",
+    "accentColor2": "#16d2e5",
     "hoverColor": "#1E1F22",
     "runWidgetRunningBgColor": "#23343f"
   },
@@ -21,9 +23,9 @@
       "focusColor": "accentColor",
       "activeBackground": "primaryColor",
       "inactiveBackground": "primaryColor",
-      "selectionBackground": "primaryColor",
+      "selectionBackground": "primaryLightColor",
       "hoverBackground": "hoverColor",
-      "selectionForeground": "accentColor",
+      "selectionForeground": "accentColor2",
       "separatorColor": "primaryColor",
       "lineSeparatorColor": "primaryColor"
     },
@@ -31,9 +33,13 @@
     "SettingsTree.rowHeight": "20",
     "windowBorder": "secondaryColor",
     "TitlePane": {
-      "background": "primaryColor"
+      "background": "primaryColor",
+      "Button": {
+        "hoverBackground": "secondaryColor"
+      }
     },
     "MainWindow": {
+      "separatorColor": "secondaryColor",
       "Tab": {
         "selectedInactiveBackground": "accentColor"
       }
@@ -119,7 +125,8 @@
       "paintBorder": true,
       "borderColor": "secondaryColor",
       "innerBorderColor": "secondaryColor",
-      "inactiveBorderColor": "secondaryColor"
+      "inactiveBorderColor": "secondaryColor",
+      "separatorColor": "secondaryColor"
     },
     "DebuggerPopup": {
       "borderColor": "secondaryColor"
@@ -156,7 +163,8 @@
       "Preview.background": "primaryColor"
     },
     "ActionButton": {
-      "hoverBorderColor": "secondaryColor"
+      "hoverBorderColor": "secondaryColor",
+      "hoverBackground": "secondaryColor"
     },
     "WelcomeScreen": {
       "headerBackground": "primaryColor",
