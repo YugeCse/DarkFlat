@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact name="FlatDarker:jar">
+  <artifact name="Flat:jar">
     <output-path>$PROJECT_DIR$/out</output-path>
     <root id="root">
       <element id="archive" name="FlatDarker.jar">
@@ -9,7 +9,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/pluginIcon.svg" />
         </element>
         <element id="directory" name="theme">
-          <element id="file-copy" path="$PROJECT_DIR$/resources/theme/FlatDarker.theme.json" />
+          <element id="file-copy" path="$PROJECT_DIR$/resources/theme/Flat.theme.json" />
         </element>
       </element>
     </root>
