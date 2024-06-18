@@ -5,7 +5,7 @@
   "colors": {
     "transparent": "#00000000",
     "primaryColor": "#1E1F22",
-    "primaryLightColor": "#676666",
+    "primaryLightColor": "#3a3a3a",
     "primaryDarkColor": "#2c2c2c",
     "secondaryColor": "#303030",
     "secondaryColor2": "#3A3A3A",
@@ -16,20 +16,40 @@
   },
   "ui": {
     "*": {
-      "arc": "4",
-      "focusWidth": "1",
+      "arc": "8",
+      "borderRadius": "8",
+      "focusWidth": "1.5",
+      "borderWidth": "2",
+      "tabSelectionArc": "10",
       "background": "primaryColor",
       "borderColor": "primaryColor",
       "focusColor": "accentColor",
       "activeBackground": "primaryColor",
       "inactiveBackground": "primaryColor",
-      "selectionBackground": "primaryLightColor",
+      "selectionBackground": "primaryColor",
       "hoverBackground": "hoverColor",
       "selectionForeground": "accentColor2",
       "separatorColor": "primaryColor",
       "lineSeparatorColor": "primaryColor"
     },
-    "Tree.rowHeight": "19",
+    "Tree": {
+      "rowHeight": "19",
+      "hoverBackground": "primaryLightColor",
+      "selectionBackground": "primaryLightColor"
+    },
+    "PopupMenu": {
+      "selectionBackground": "primaryLightColor"
+    },
+    "List": {
+      "hoverBackground": "primaryLightColor",
+      "selectionForeground": "accentColor2",
+      "selectionBackground": "primaryLightColor",
+      "selectionInactiveBackground": "secondaryColor2"
+    },
+    "CompletionPopup": {
+      "selectionForeground": "accentColor2",
+      "selectionBackground": "primaryLightColor"
+    },
     "SettingsTree.rowHeight": "20",
     "windowBorder": "secondaryColor",
     "TitlePane": {
@@ -90,8 +110,9 @@
       },
       "buttonBackground": "primaryColor",
       "disabledBackground": "primaryColor",
-      "selectionBackground": "primaryColor",
-      "nonEditableBackground": "primaryColor"
+      "nonEditableBackground": "primaryColor",
+      "selectionForeground": "accentColor2",
+      "selectionBackground": "primaryLightColor"
     },
     "SearchEverywhere": {
       "SearchField": {
@@ -101,7 +122,8 @@
     "TextField": {
       "background": "primaryDarkColor",
       "selectionBackground": "primaryColor",
-      "inactiveBackground": "primaryColor"
+      "inactiveBackground": "primaryColor",
+      "disabledBackground": "primaryDarkColor"
     },
     "FormattedTextField": {
       "background": "primaryColor"
