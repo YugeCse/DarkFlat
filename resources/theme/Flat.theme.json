@@ -32,7 +32,7 @@
       "hoverBackground": "hoverColor",
       "selectionForeground": "accentColor2",
       "separatorColor": "primaryColor",
-      "lineSeparatorColor": "primaryColor",
+      "lineSeparatorColor": "primaryColor"
     },
     "Tree": {
       "rowHeight": "19",
