@@ -16,11 +16,13 @@
   },
   "ui": {
     "*": {
-      "arc": "8",
-      "borderRadius": "8",
+      "arc": "5",
+      "borderRadius": "5",
+      "tabSelectionArc": "5",
+      "Code.Inline.borderRadius": "5",
+      "Code.Block.borderRadius": "5",
       "focusWidth": "1.5",
       "borderWidth": "2",
-      "tabSelectionArc": "10",
       "background": "primaryColor",
       "borderColor": "primaryColor",
       "focusColor": "accentColor",
@@ -120,7 +122,7 @@
       }
     },
     "TextField": {
-      "background": "primaryDarkColor",
+      "background": "primaryColor",
       "selectionBackground": "primaryColor",
       "inactiveBackground": "primaryColor",
       "disabledBackground": "primaryDarkColor"
